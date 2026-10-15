@@ -1,0 +1,16 @@
+# Configuración de la base de datos del Sistema de Trabajos de Grado.
+# Copia este archivo como "db.properties" en la raíz del proyecto y completa
+# los datos de tu MariaDB (db.properties NO se versiona).
+#
+#   cp db.properties.example db.properties
+#
+# El archivo se puede empaquetar en el WAR (WEB-INF/classes/db.properties) con
+# build.sh, o dejarlo fuera del proyecto e indicarlo con:
+#   -Ddb.props=/ruta/a/db.properties            (propiedad de sistema de la JVM)
+#   TRABAJOS_GRADO_DB_PROPS=/ruta/a/db.properties   (variable de entorno)
+
+host=localhost
+puerto=3306
+base=trabajos_grado
+usuario=root
+contrasena=

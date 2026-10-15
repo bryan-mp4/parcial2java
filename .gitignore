@@ -1,0 +1,39 @@
+# ---------------------------------------------------------------------------
+#  Archivos que NO se versionan
+# ---------------------------------------------------------------------------
+
+# Salida del build
+build/
+
+# Archivos subidos por los usuarios (se guardan fuera del webapp en producción)
+uploads/
+
+# Configuración real de la base de datos (solo se versiona el .example)
+db.properties
+
+# Clases compiladas
+*.class
+
+# WAR generado
+*.war
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+nbproject/
+*.swp
+
+# Sistema / temporales
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# Tomcat local (si se despliega expandido dentro del proyecto)
+work/
+temp/
+logs/
